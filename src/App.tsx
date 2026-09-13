@@ -1,13 +1,15 @@
 import { Suspense } from "react";
-import Navbar from "./Components/Navbar";
+ 
 
 import Cards from "./Components/ProgrammingCards/Cards";
 import type { Icards } from "./types/cardsTypes";
-import { ToastContainer } from "react-toastify";
+// import { ToastContainer } from "react-toastify";
 
 
 import Banner from "./Components/Banner";
 import Footer from "./Components/Footer";
+import Navbar from "./Components/NavBar";
+import { ToastContainer } from "react-toastify";
 
 
 

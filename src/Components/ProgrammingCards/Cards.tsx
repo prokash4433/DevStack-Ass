@@ -4,8 +4,9 @@ import type { Icards } from "../../types/cardsTypes";
 
 import TechnologyCard from "./TechnologyCard";
 import YourStack from "./YourStack";
-
 import { toast } from "react-toastify";
+
+// import { toast } from "react-toastify";
 
 interface CardsProps {
           cardsPromise: Promise<Icards[]>;
